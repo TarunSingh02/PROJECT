@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Welcome to travel form</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img class="background" src="img/bg.jpg" alt="Trip" />
+    <div class="container">
+      <h1>Welcome To Intelegencia Unofficial Trip Form</h1>
+      <p>
+        Enter your details and submit the form to confirm your participation for
+        the trip
+      </p>
+      <p class="submitMsg">Thanks For Submitting The Form</p>
+
+      <form action="index.php" method="post">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
+        <input type="text" name="age" id="age" placeholder="Enter your age" />
+        <input
+          type="text"
+          name="gender"
+          id="gender"
+          placeholder="Enter your gender"
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <input
+          type="phone"
+          name="phone"
+          id="phone"
+          placeholder="Enter your phone"
+        />
+        <textarea
+          name="desc"
+          id="desc"
+          cols="30"
+          rows="10"
+          placeholder="Enter any other information"
+        ></textarea>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+
+    <!-- INSERT INTO `trip` (`sno`, `name`, `age`, `gender`, `email`, `phone`,
+    `desc`, `dt`) VALUES ('1', 'testname', '25', 'Male', 'this@that.com',
+    '9999999999', 'This is my First PHP myadmin message', current_timestamp()); -->
+  </body>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#section1">VasHappnin!</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">VasHappnin!2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">VasHappnin</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div
+    id="section1"
+    class="container-fluid bg-success text-white"
+    style="padding: 100px 20px"
+  >
+    <h1>Section 1</h1>
+    <p>
+      Try to scroll this section and look at the navigation bar while
+      scrolling! Try to scroll this section and look at the navigation bar
+      while scrolling!
+    </p>
+    <p>
+      Try to scroll this section and look at the navigation bar while
+      scrolling! Try to scroll this section and look at the navigation bar
+      while scrolling!
+    </p>
+  </div>
+
+  <div
+    id="section2"
+    class="container-fluid bg-warning"
+    style="padding: 100px 20px"
+  >
+    <h1>Section 2</h1>
+    <p>
+      Try to scroll this section and look at the navigation bar while
+      scrolling! Try to scroll this section and look at the navigation bar
+      while scrolling!
+    </p>
+    <p>
+      Try to scroll this section and look at the navigation bar while
+      scrolling! Try to scroll this section and look at the navigation bar
+      while scrolling!
+    </p>
+  </div>
+
+  <div
+    id="section3"
+    class="container-fluid bg-danger text-white"
+    style="padding: 100px 20px"
+  >
+    <h1>Section 3</h1>
+    <p>
+      Try to scroll this section and look at the navigation bar while
+      scrolling! Try to scroll this section and look at the navigation bar
+      while scrolling!
+    </p>
+    <p>
+      Try to scroll this section and look at the navigation bar while
+      scrolling! Try to scroll this section and look at the navigation bar
+      while scrolling!
+    </p>
+  </div>
+</body>
+</html>

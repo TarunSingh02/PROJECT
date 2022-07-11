@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Sriracha', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1, p{
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+}
+
+input, textarea{
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    display: block;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.btn{
+    color: white;
+    background-color: rgb(192, 0, 0);
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.background{
+    display: cover;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+.submitMsg{
+    font-size: 20px;
+    color: red;
+}
